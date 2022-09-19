@@ -1,6 +1,6 @@
 <?php
 
-$conn = mysqli_connect('localhost','root','','contact_db') or die('connection failed');
+$conn = mysqli_connect('mysql-noradas.alwaysdata.net','noradas','noradas@12345','noradas_ftftfullstack') or die('connection failed');
 
 if(isset($_POST['send'])){
 
@@ -70,7 +70,7 @@ if(isset($message)){
       <a href="#about">A propos</a>
       <a href="#services">Services</a>
       <a href="#portfolio">Portfolio</a>
-      <a href="#contact">Contacts</a>
+      <a href="#contact">Contact</a>
    </nav>
 
    <div class="follow">
@@ -95,7 +95,7 @@ if(isset($message)){
 
    <div class="content">
       <h3 data-aos="fade-up">Salut, je suis Nora</h3>
-      <span data-aos="fade-up">Conseiller clientèle & web designer-developpeur Junior</span>
+      <span data-aos="fade-up" >Conseiller clientèle & web designer-developpeur Junior</span>
       <p data-aos="fade-up">
          Je suis developpeur junior en fin de formation, je suis motivée,
          passionnée, et avide d'apprentissage. Developpeur professionnel en 
@@ -162,30 +162,26 @@ if(isset($message)){
                <span>( Fév 2022 - Sept 2022 )</span>
                <h3>ENERGY GENERATION</h3>
                <p>
-                  Est une organisation panafricaine qui encourage les jeunes Africains à relever les défis les plus pressants de leur génération.
+                  Est une organisation panafricaine qui encourage les jeunes Africains à relever les défis de leur génération.
                </p>
+            </div>
+
+            <div class="box" data-aos="fade-right">
+               <span>( Mars 2022 - Sept 2022 )</span>
+               <h3>ENERGY GENERATION</h3>
+               <p> Est une organisation panafricaine qui encourage les jeunes Africains à relever les défis de leur génération.</p>
             </div>
 
             <div class="box" data-aos="fade-right">
                <span>( 2019 - 2021 )</span>
                <h3>PCCI - Togo</h3>
-               <p>
-                  Mutionationale opérant dans la gestion externalisée de la relation client
-               </p>
+               <p> Est une Mutionationale opérant dans la gestion externalisée de la relation client.</p>
             </div>
 
             <div class="box" data-aos="fade-right">
                <span>( 2018 - 2019 )</span>
                <h3>ADKontact</h3>
-               <p>
-                  Entreprise spécialisée dans la gestion de la relation clientèle et la vente à distance de contrats
-               </p>
-            </div>
-
-            <div class="box" data-aos="fade-right">
-               <span>( 2021 - 2022 )</span>
-               <h3>graphic designer</h3>
-               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat assumenda, eaque sequi repellat natus quia.</p>
+               <p> Est une Entreprise spécialisée dans la gestion de la relation clientèle et la vente à distance de contrats.</p>
             </div>
 
          </div>
@@ -198,25 +194,25 @@ if(isset($message)){
                <!-- Description du parcours a ENERGY GENERATION -->
                <span>( Fév 2022 - Sept 2022 )</span>
                <h3>FORMATION D-CLIC DWWM</h3>
-               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat assumenda, eaque sequi repellat natus quia.</p>
+               <p>Réalisation de l'ensemble des fonctionnalités techniques d'un site ou d'une application web.</p>
+            </div>
+
+            <div class="box" data-aos="fade-left">
+               <span>(Mars 2022 - Sept 2022 )</span>
+               <h3>Graphic Design </h3>
+               <p>Grace à l'auto-formation en graphisme à EG nous concevons pour vous de jolis design pour vos communications visuelles. </p>
             </div>
 
             <div class="box" data-aos="fade-left">
                <span>( 2020 - 2021 )</span>
                <h3>Conseiller clientèle</h3>
-               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat assumenda, eaque sequi repellat natus quia.</p>
+               <p>Nous garantissons la sitisfaction de vos clients et leurs fidélisation par l'acceuil,l'assistance,et les conseils.</p>
             </div>
 
             <div class="box" data-aos="fade-left">
                <span>( 2018 - 2019 )</span>
                <h3>Télévendeur & Conseiller clientèle</h3>
-               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat assumenda, eaque sequi repellat natus quia.</p>
-            </div>
-
-            <div class="box" data-aos="fade-left">
-               <span>( 2021 - 2022 )</span>
-               <h3>full-stack developer</h3>
-               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat assumenda, eaque sequi repellat natus quia.</p>
+               <p>Nous faisons de la Publicité,du placement et la vente de divers produits et services en ligne.</p>
             </div>
 
          </div>
@@ -240,37 +236,37 @@ if(isset($message)){
       <div class="box" data-aos="zoom-in">
          <i class="fas fa-code"></i>
          <h3>developpement web</h3>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, placeat veritatis accusantium nostrum rem ipsa.</p>
+         <p>Proposition et conception de sites web selon vos besoins,moyens et désirs ainsi que la maintenance de ces derniers.</p>
       </div>
 
       <div class="box" data-aos="zoom-in">
          <i class="fas fa-paint-brush"></i>
          <h3>graphic design</h3>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, placeat veritatis accusantium nostrum rem ipsa.</p>
+         <p>Nous offrons des services de design graphique et d'infographie pour répondre à vos besoins en design publicitaire.</p>
       </div>
 
       <div class="box" data-aos="zoom-in">
          <i class="fab fa-bootstrap"></i>
-         <h3>bootstrap</h3>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, placeat veritatis accusantium nostrum rem ipsa.</p>
+         <h3>Bootstrap</h3>
+         <p>Nous vous proposons notre assistance dans l'utilisation des templates boostrap et la maintenance de vos sites.</p>
       </div>
 
       <div class="box" data-aos="zoom-in">
          <i class="fas fa-chart-line"></i>
-         <h3>seo marketing</h3>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, placeat veritatis accusantium nostrum rem ipsa.</p>
+         <h3>CRM </h3>
+         <p>Nous vous proposons une assistance de qualité dans la gestion de la relation client entre votre entreprise et sa clientèle.</p>
       </div>
 
       <div class="box" data-aos="zoom-in">
          <i class="fas fa-bullhorn"></i>
-         <h3>Marketing digital</h3>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, placeat veritatis accusantium nostrum rem ipsa.</p>
+         <h3> Marketing digital</h3>
+         <p>A cette ère du numérique nous vous proposons des services complets pour assurer la présence de votre entreprise sur internet .</p>
       </div>
 
       <div class="box" data-aos="zoom-in">
          <i class="fab fa-wordpress"></i>
          <h3>wordpress</h3>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, placeat veritatis accusantium nostrum rem ipsa.</p>
+         <p>Nous couvrons toutes les problématiques liées à WordPress au travers d'une offre complète de services et de maintenance.</p>
       </div>
 
    </div>
@@ -288,7 +284,7 @@ if(isset($message)){
    <div class="box-container">
 
       <div class="box" data-aos="zoom-in">
-         <img src="images/img-1.jpg" alt="">
+         <img src="images/images.jpeg" alt="">
          <h3>web development</h3>
          <span>( 2020 - 2022 )</span>
       </div>
@@ -337,12 +333,12 @@ if(isset($message)){
 
    <form action="" method="post">
       <div class="flex">
-         <input data-aos="fade-right" type="text" name="name" placeholder="enter your name" class="box" required>
-         <input data-aos="fade-left" type="email" name="email" placeholder="enter your email" class="box" required>
+         <input data-aos="fade-right" type="text" name="name" placeholder="saisissez votre nom" class="box" required>
+         <input data-aos="fade-left" type="email" name="email" placeholder="saisissez votre email" class="box" required>
       </div>
-      <input data-aos="fade-up" type="number" min="0" name="number" placeholder="enter your number" class="box" required>
-      <textarea data-aos="fade-up" name="message" class="box" required placeholder="enter your message" cols="30" rows="10"></textarea>
-      <input type="submit" data-aos="zoom-in" value="send message" name="send" class="btn">
+      <input data-aos="fade-up" type="number" min="0" name="number" placeholder="saisissez votre numéro" class="box" required>
+      <textarea data-aos="fade-up" name="message" class="box" required placeholder="saisissez votre  message" cols="30" rows="10"></textarea>
+      <input type="submit" data-aos="zoom-in" value="envoyez un message" name="send" class="btn">
    </form>
 
    <div class="box-container">
@@ -356,13 +352,13 @@ if(isset($message)){
       <div class="box" data-aos="zoom-in">
          <i class="fas fa-envelope"></i>
          <h3>email</h3>
-         <p>noradasilveira0@gmail.com<</p>
+         <p>noradasilveira0@gmail.com</p>
       </div>
 
       <div class="box" data-aos="zoom-in">
          <i class="fas fa-map-marker-alt"></i>
          <h3>adresse</h3>
-         <p>Lomé, Togo - 400104</p>
+         <p>Lomé, Togo</p>
       </div>
 
    </div>
@@ -373,21 +369,12 @@ if(isset($message)){
 
 <div class="credit"> &copy; copyright @ <?php echo date('Y'); ?> by <span>Nora da SILVEIRA</span> </div>
 
-
-
-
-
-
-
-
-
-
-
-
 <!-- lien vers un fichier js personnalisé  -->
+
 <script src="js/script.js"></script>
 
 <!-- lien vers aos js  -->
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 
 <script>

@@ -1,5 +1,5 @@
 <?php
-
+// connexion a la base de données
 $conn = mysqli_connect('mysql-noradas.alwaysdata.net','noradas','noradas@12345','noradas_ftftfullstack') or die('connection failed');
 
 if(isset($_POST['send'])){
@@ -90,7 +90,7 @@ if(isset($message)){
 <section class="home" id="home">
 
    <div class="image" data-aos="fade-right">
-      <img src="images/user-img.jpg" alt="">
+      <img src="images/IMG_2639.JPG.jpg" alt="i">
    </div>
 
    <div class="content">
@@ -121,7 +121,7 @@ if(isset($message)){
    <div class="biography">
 
       <p data-aos="fade-up">Je me nomme da SILVEIRA Nora, je suis une jeune togolaise néé à Lomé.Passionnée par l'apprentissage et la polyvalence professionnelle,
-         je suis une Commerciale-marketeuse de formation,et une developpeuse fullstack en devenir. </p>
+         je suis une Commerciale-marketeuse de formation,et une developpeuse fullstack junior. </p>
 
       <div class="bio">
          <h3 data-aos="zoom-in"> <span>Nom : </span> Nora da SILVEIRA </h3>
@@ -195,7 +195,7 @@ if(isset($message)){
 
                <!-- Description du parcours a ENERGY GENERATION -->
                <span>( Fév 2022 - Sept 2022 )</span>
-               <h3>FORMATION D-CLIC DWWM</h3>
+               <h3>FORMATION D-CLIC DWWM SIMPLON</h3>
                <p>Réalisation de l'ensemble des fonctionnalités techniques d'un site ou d'une application web.</p>
             </div>
 
@@ -288,7 +288,7 @@ if(isset($message)){
       <div class="box" data-aos="zoom-in">
          <img src="images/developpeur-web.jpeg" alt="">
          <h3>web development</h3>
-         <span><a href="https://github.com/Noradas/Projet_Togo-html">(fév - sept 2022)</a></span>
+         <span><a href="https://nora-ftf.netlify.app/">(fév - sept 2022)</a></span>
       </div>
 
       <div class="box" data-aos="zoom-in">

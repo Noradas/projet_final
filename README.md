@@ -1,7 +1,7 @@
 # projet_final Portfolio de Nora da SILVEIRA 
 Ce projet est mon projet chef d'œuvre de fin de formation,c'est un portfolio fullstack en ligne qui me permet de prouver des compétences en retraçant des projets aboutis et des services proposés.
 
-Ressources:
+#### Ressources:
 *Visual Studio Code,
 *PHP,
 *JavaScript,
@@ -19,8 +19,11 @@ Ouvrier Visual Studio Code
 
 exporter les liens AOS 
 https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js
+
 https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css 
+
 et Lien font awesome cdn
+
 https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css
 
 Créer les fichiers suivants :

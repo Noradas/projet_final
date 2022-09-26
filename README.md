@@ -8,16 +8,17 @@ Ce projet est mon projet chef d'œuvre de fin de formation,c'est un portfolio fu
 *Alwaysdata,
 *Filezila,
 
-Installation: 
+## Installation: 
 Visual Code,
 PHPMYAdmin,
 WorkBench
 
-Demarrage: 
+## Demarrage: 
 
 Ouvrier Visual Studio Code
 
-exporter les liens AOS 
+exporter les liens AOS
+
 https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js
 
 https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css 
@@ -32,12 +33,14 @@ images,
 js,
 index.php.
 
+## Database
+
 Afin de gérer le formulaire :
 
 Créer une base de données
 Dans la base de donnée, crée une table pour gérer le formulaire de contact.
 
-Hebergement :
+## Hebergement :
 
 Nous avons géreé l'hébergement de la base de donnée avec Alwaysdata 
 et le site en soi,la partie frontend avec filezila.
@@ -46,4 +49,4 @@ et le site en soi,la partie frontend avec filezila.
 *importer la base de données et se connecter,
 *Enfin obtenir le lien vers site en ligne,
 
-http://noradas.alwaysdata.net/#home
+### http://noradas.alwaysdata.net/#home
